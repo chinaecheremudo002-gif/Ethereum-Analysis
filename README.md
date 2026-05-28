@@ -20,4 +20,48 @@ Despite the availability of blockchain transaction data, there is still a need t
 
 This project aims to analyze Ethereum transaction data using SQL to examine daily transaction trends, gas price behavior, wallet volume categories, and high-value transfer activities. The analysis seeks to provide a clearer understanding of how transaction patterns and large wallet activities affect the Ethereum blockchain network.
 
+##Ethereum Transaction Dataset Summary
+
+## Overview
+
+This project focuses on the Ethereum transaction dataset available on Google BigQuery. The dataset contains detailed records of all transactions executed on the Ethereum blockchain. Each row represents a single transaction between two wallet addresses, capturing both the value transferred and the computational cost of processing the transaction.
+
+The dataset provides a rich source of information for analyzing blockchain activity, network congestion, transaction costs, and wallet behavior over time.
+
+## Key Features (Columns)
+
+The transaction dataset typically includes:
+
+- **Transaction Hash**: Unique identifier for each transaction  
+- **From Address**: Sender wallet address  
+- **To Address**: Receiver wallet address  
+- **Value**: Amount of ETH transferred (in Wei, requiring conversion to ETH)  
+- **Gas Price**: Cost per unit of gas at the time of transaction  
+- **Gas Used**: Total gas consumed by the transaction  
+- **Block Number**: The block in which the transaction was recorded  
+- **Block Timestamp**: Time when the transaction was confirmed  
+
+## Data Characteristics
+
+- Large-scale dataset containing millions of transactions  
+- Time-series structure based on block timestamps  
+- Highly dynamic due to continuous blockchain activity  
+- Contains both high-frequency small transactions and low-frequency large transfers  
+
+## Importance of the Dataset
+
+The Ethereum transaction dataset is essential for understanding real-world blockchain behavior. It allows analysis of:
+
+- Network congestion patterns  
+- Transaction cost (gas fee) fluctuations  
+- High-value wallet (whale) activity  
+- Daily and hourly transaction trends  
+- Overall blockchain network efficiency  
+
+## Project Relevance
+
+In this project, the dataset is used to explore how transaction volume and high-value transfers impact network congestion and gas fees. It also helps identify patterns in wallet activity and provides insights into Ethereum’s operational behavior over time.
+```
+
+
 
