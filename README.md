@@ -107,6 +107,17 @@ Wallets are grouped into three tiers: Whale wallets with very large holdings (1,
 
 By segmenting wallets into these tiers, the analysis aims to identify the role of high-value wallets in transaction volume, detect patterns of large-scale movements, and understand how different user groups contribute to overall network activity.
 
+## Insight
+
+This analysis looks at how Ethereum wallet users are grouped based on how much ETH they hold or move within a 30-day period. The goal is to understand the difference between small users and very large investors in the network.
+
+Most of the wallets in the dataset fall under the “Fish” category, meaning they hold or transact small amounts of ETH. This shows that the Ethereum network is mainly used by many small-scale users on a daily basis.
+
+However, there is one “Whale” wallet with a very large amount of ETH compared to all other wallets. This indicates that a very small number of users control extremely large value within the network.
+
+Interestingly, there are no “Shark” wallets (medium-level holders) in this 30-day sample. This suggests that the activity is not evenly distributed, but instead split between many small users and a few extremely large holders.
+
+Overall, the analysis shows that Ethereum activity in this period is highly unbalanced, with most participation coming from small wallets and a single dominant large wallet influencing the value distribution.
 
 
 
