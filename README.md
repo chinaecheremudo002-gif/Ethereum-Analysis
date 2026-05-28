@@ -95,7 +95,6 @@ The data reveals consistently high Ethereum network activity, with daily transac
 ## Conclusion
 
 Overall, the Ethereum network demonstrates a pattern of **high but unstable activity**, where transaction demand remains consistently strong while value transfer and gas costs fluctuate significantly. This indicates periodic congestion events likely driven by market-driven spikes and high-value wallet activity.
-```
 
 
 
