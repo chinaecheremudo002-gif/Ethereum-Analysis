@@ -97,6 +97,18 @@ The data reveals consistently high Ethereum network activity, with daily transac
 Overall, the Ethereum network demonstrates a pattern of **high but unstable activity**, where transaction demand remains consistently strong while value transfer and gas costs fluctuate significantly. This indicates periodic congestion events likely driven by market-driven spikes and high-value wallet activity.
 
 
+# Whale Wallet Tier Segmentation (Ethereum Address Classification)
+
+## Summary
+
+This analysis focuses on categorizing active Ethereum wallet addresses based on the total volume of ETH they control or transact. The goal is to understand how different levels of wallet size influence network activity and market behavior.
+
+Wallets are grouped into three tiers: Whale wallets with very large holdings (1,000 ETH and above), Shark wallets with medium-level holdings (100–999 ETH), and Fish wallets with smaller holdings (below 100 ETH). This classification helps distinguish major market participants from regular users.
+
+By segmenting wallets into these tiers, the analysis aims to identify the role of high-value wallets in transaction volume, detect patterns of large-scale movements, and understand how different user groups contribute to overall network activity.
+
+
+
 
 
 
