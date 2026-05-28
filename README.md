@@ -119,6 +119,18 @@ Interestingly, there are no “Shark” wallets (medium-level holders) in this 3
 
 Overall, the analysis shows that Ethereum activity in this period is highly unbalanced, with most participation coming from small wallets and a single dominant large wallet influencing the value distribution.
 
+# Daily Top-Value Transfers (Weekly Analysis)
+
+## insight
+
+This analysis focuses on identifying the largest Ethereum transactions for each day within a selected week. The goal is to understand the most significant value movements happening on the blockchain on a daily basis.
+
+By isolating the top 5 highest-value transactions per day, we can highlight periods where large amounts of Ethereum are being transferred. These high-value transactions are often linked to whale wallet activity, institutional movements, or major trading events.
+
+This approach helps reveal how concentrated value transfers are within the network and shows whether a small number of transactions dominate daily activity. It also provides insight into unusual spikes in financial movement, which may contribute to network congestion and higher transaction fees.
+
+Overall, this analysis helps identify the most impactful transactions each day and provides a clearer picture of how large-scale value movements influence Ethereum network behavior.
+
 
 
 
