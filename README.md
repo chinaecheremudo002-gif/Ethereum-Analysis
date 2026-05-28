@@ -131,6 +131,16 @@ This approach helps reveal how concentrated value transfers are within the netwo
 
 Overall, this analysis helps identify the most impactful transactions each day and provides a clearer picture of how large-scale value movements influence Ethereum network behavior.
 
+# Rolling Cost Forecast (7-Day Moving Average of Gas Prices)
+
+## Summary
+
+This analysis applies a 7-day moving average to Ethereum gas prices in order to smooth out daily fluctuations and reveal the overall trend in transaction costs. Because gas fees on the Ethereum network can change rapidly due to congestion and varying demand, daily values alone can be unstable and difficult to interpret.
+
+By averaging gas prices over a 7-day window, the analysis highlights more stable cost patterns and helps identify periods where transaction fees are consistently lower. These periods are considered cost-efficient windows, where users can execute transactions at relatively cheaper rates.
+
+Overall, this approach provides a clearer understanding of network cost behavior by filtering out short-term volatility and focusing on sustained trends in gas fees.
+
 
 
 
