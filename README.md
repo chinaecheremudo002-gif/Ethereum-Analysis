@@ -78,6 +78,26 @@ Finally, it analyzes the average gas price for each day, which reflects how expe
 
 Overall, this analysis provides a clear view of Ethereum network activity, transaction demand, and cost fluctuations over time, helping to identify periods of congestion and high usage.
 
+## Insight: Ethereum Network Activity (Last 9 Days)
+
+## Insight Summary
+
+The data reveals consistently high Ethereum network activity, with daily transactions ranging from approximately **1.93M to 2.67M**, indicating sustained demand for blockchain usage over the observed period.
+
+## Key Findings
+
+- **Transaction Volume:** Activity remains stable at a high level, suggesting continuous network utilization without significant downtime or inactivity periods.
+
+- **Value Transferred:** Total ETH transferred shows noticeable daily fluctuations, ranging from about **647K to 1.52M ETH**, indicating uneven capital movement likely driven by varying market activity and large wallet transactions.
+
+- **Gas Prices:** Average gas prices exhibit strong volatility, peaking above **9M** and dropping to around **4.4M**, reflecting frequent shifts in network congestion and competition for block space.
+
+## Conclusion
+
+Overall, the Ethereum network demonstrates a pattern of **high but unstable activity**, where transaction demand remains consistently strong while value transfer and gas costs fluctuate significantly. This indicates periodic congestion events likely driven by market-driven spikes and high-value wallet activity.
+```
+
+
 
 
 
