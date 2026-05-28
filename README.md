@@ -61,7 +61,24 @@ The Ethereum transaction dataset is essential for understanding real-world block
 ## Project Relevance
 
 In this project, the dataset is used to explore how transaction volume and high-value transfers impact network congestion and gas fees. It also helps identify patterns in wallet activity and provides insights into Ethereum’s operational behavior over time.
-```
+
+# Network Congestion & Fee Trends (Last 30 Days)
+
+## Summary
+
+This analysis focuses on understanding how active the Ethereum network has been over the most recent 30-day period. The Ethereum blockchain processes thousands of transactions every day, and this activity directly affects how fast transactions are confirmed and how expensive it is to use the network.
+
+The study examines three key aspects of network behavior:
+
+First, it measures the total number of transactions each day to understand how busy the network is over time. A higher number of transactions indicates increased network usage and potential congestion.
+
+Second, it calculates the total amount of Ethereum transferred daily. This helps in understanding the flow of value within the network and highlights days with unusually high financial activity, often influenced by large wallet movements.
+
+Finally, it analyzes the average gas price for each day, which reflects how expensive it is to process transactions on the network. Higher gas prices usually indicate network congestion, where users compete to have their transactions processed faster.
+
+Overall, this analysis provides a clear view of Ethereum network activity, transaction demand, and cost fluctuations over time, helping to identify periods of congestion and high usage.
+
+
 
 
 
