@@ -270,4 +270,56 @@ This helps reduce transaction costs and improve decision-making.
 
 
 
+# PROJECT 2: HEALTHCARE & MEDICAL OPERATIONS ANALYTIC
+
+
+# INTRODUCTION
+"""
+INTRODUCTION
+
+Healthcare costs are one of the most important and heavily analyzed areas in medical economics
+and insurance systems.
+
+Different hospitals and providers often charge different prices for the same medical services,
+which creates inconsistencies in healthcare spending.
+
+Insurance providers like Medicare also reimburse at different rates depending on location,
+provider type, and service category.
+
+This project focuses on analyzing Medicare cost variance, hospital pricing behavior,
+and identifying unusual prescribing patterns across providers.
+
+The goal is to understand how healthcare pricing varies and to detect inefficiencies,
+outliers, and potential areas of overcharging or abnormal prescribing behavior.
+"""
+
+
+# PROBLEM STATEMENT
+
+"""
+PROBLEM STATEMENT
+
+Healthcare data often shows significant variation in pricing for similar medical procedures.
+
+Hospitals may apply different markup rates compared to insurance reimbursement values,
+leading to unexplained cost differences.
+
+In addition, some healthcare providers may prescribe medications at unusually high rates
+compared to their peers, which may indicate inefficiencies or potential abuse.
+
+However, without structured data analysis, these pricing differences and prescribing patterns
+are difficult to detect.
+
+This project aims to analyze Medicare cost data to identify:
+- Cost variance across providers
+- Hospital markup patterns
+- Outlier prescribing behavior
+
+The objective is to improve transparency, reduce waste, and support better healthcare decision-making.
+"""
+
+
+
+
+
 
