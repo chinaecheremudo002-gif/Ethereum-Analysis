@@ -192,7 +192,7 @@ This technique is widely used in:
 - Forecasting systems
 - Market trend analysis
 
-# RECOMMENDATIONS (LAYMAN STYLE)
+## RECOMMENDATIONS 
 
 ## 1. Watch gas fees before making transactions
 
@@ -247,7 +247,7 @@ to predict when gas fees might be low or high.
 This helps you plan transactions at the cheapest time.
 
 
-# FINAL SUMMARY
+## FINAL SUMMARY
 
 
 Ethereum network is very active and unstable in terms of fees.
@@ -310,7 +310,25 @@ This project aims to analyze Medicare cost data to identify:
 
 The objective is to improve transparency, reduce waste, and support better healthcare decision-making.
 
+## Hospital Cost Markup Analysis
 
+The objective of this analysis is to calculate the markup ratio for hospitals and identify those with the highest difference between billed charges and actual payments. The markup ratio compares how much hospitals charge versus what is actually paid, helping to reveal pricing inefficiencies and unusual billing patterns. This analysis is useful for identifying overpriced hospitals, detecting potential fraud, waste, and abuse, and ranking hospitals based on the severity of their pricing gaps.
+
+## Hospital Cost Markup Insight
+
+The dataset shows a ranked list of hospitals based on markup ratios, and the values are tightly clustered within a narrow range of about 7.9% to 10%. This suggests that hospital pricing behavior is relatively consistent across institutions rather than highly scattered or extreme. A small group of hospitals at the top, such as Oak Hill Hospital and Doctors Medical Center, show slightly higher markup ratios, but the difference between the highest and lowest values is not large enough to indicate severe pricing anomalies.
+
+Overall, the pattern suggests a systemic pricing structure rather than isolated outliers. This means hospitals may be operating under similar insurance reimbursement frameworks or negotiated payment standards, which keeps markup differences relatively stable. However, even small variations are still important in large-scale healthcare spending because minor percentage differences can translate into millions of dollars in total cost impact.
+
+From a data perspective, the absence of extreme outliers implies lower immediate fraud risk based purely on markup ratio alone. However, deeper analysis combining procedure types, patient volume, and state-level differences would be needed to detect hidden inefficiencies or strategic overbilling patterns.
+
+## Geographic Price Variance Analysis
+
+The objective of this analysis is to compute the **average payment for the top 5 procedures across different US states** and use this to rank states based on overall healthcare cost levels. This helps identify how medical pricing varies geographically and highlights which states are the most expensive for healthcare services.
+
+The analysis shows that procedure costs are not uniform across the country, with significant variation driven by factors such as regional healthcare demand, hospital pricing strategies, insurance negotiation strength, and cost of living differences. States with higher rankings typically reflect higher average payments across multiple procedures, indicating more expensive healthcare systems overall, while lower-ranked states tend to have more cost-efficient pricing structures.
+
+By comparing states using the same set of high-volume procedures, this analysis provides a standardized way to evaluate healthcare affordability and detect regional pricing disparities in the US healthcare system.
 
 
 
