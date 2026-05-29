@@ -193,13 +193,8 @@ This technique is widely used in:
 - Market trend analysis
 
 # RECOMMENDATIONS (LAYMAN STYLE)
-# Ethereum Blockchain Analysis
 
-# Based on our analysis of Ethereum gas fees,
-# network congestion, and whale wallet activity,
-# here are simple and practical recommendations:
-
-# 1. Watch gas fees before making transactions
+## 1. Watch gas fees before making transactions
 
 1. Watch Gas Fees Before Sending Transactions
 
@@ -213,7 +208,7 @@ Always check gas prices or moving average trends
 before making transactions so you can choose cheaper days.
 
 
-# 2. Avoid sending transactions during network congestion
+## 2. Avoid sending transactions during network congestion
 
 2. Avoid Busy Network Periods
 
@@ -225,7 +220,7 @@ If your transaction is not urgent, wait for less busy periods
 to save money on gas fees.
 
 
-# 3. Pay attention to whale (big wallet) activity
+## 3. Pay attention to whale (big wallet) activity
 
 3. Monitor Large Wallet Movements (Whales)
 
@@ -239,7 +234,7 @@ Tracking whale activity can help predict possible spikes
 in network congestion and transaction costs.
 
 
-# 4. Use prediction or forecasting for better planning
+## 4. Use prediction or forecasting for better planning
 
 4. Use Prediction Models for Gas Fees
 
@@ -254,7 +249,6 @@ This helps you plan transactions at the cheapest time.
 
 # FINAL SUMMARY
 
-FINAL SUMMARY
 
 Ethereum network is very active and unstable in terms of fees.
 
@@ -273,8 +267,8 @@ This helps reduce transaction costs and improve decision-making.
 # PROJECT 2: HEALTHCARE & MEDICAL OPERATIONS ANALYTIC
 
 
-# INTRODUCTION
-"""
+## INTRODUCTION
+
 INTRODUCTION
 
 Healthcare costs are one of the most important and heavily analyzed areas in medical economics
@@ -291,12 +285,11 @@ and identifying unusual prescribing patterns across providers.
 
 The goal is to understand how healthcare pricing varies and to detect inefficiencies,
 outliers, and potential areas of overcharging or abnormal prescribing behavior.
-"""
+
 
 
 # PROBLEM STATEMENT
 
-"""
 PROBLEM STATEMENT
 
 Healthcare data often shows significant variation in pricing for similar medical procedures.
@@ -316,7 +309,6 @@ This project aims to analyze Medicare cost data to identify:
 - Outlier prescribing behavior
 
 The objective is to improve transparency, reduce waste, and support better healthcare decision-making.
-"""
 
 
 
