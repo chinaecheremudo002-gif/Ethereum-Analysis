@@ -141,6 +141,57 @@ By averaging gas prices over a 7-day window, the analysis highlights more stable
 
 Overall, this approach provides a clearer understanding of network cost behavior by filtering out short-term volatility and focusing on sustained trends in gas fees.
 
+## Ethereum Gas Price Trend Analysis
+
+### Objective
+The objective of this analysis is to identify cost-efficient transaction periods on the Ethereum network using a 7-day moving average of gas prices.
+
+---
+
+## Key Insight
+
+Daily Ethereum gas prices showed significant volatility, with sharp increases and decreases across different dates. To reduce noise and reveal the underlying trend, a 7-day moving average was applied.
+
+The moving average indicates that gas prices generally declined from mid-May onward.
+
+- On **2026-05-12**, the 7-day moving average was approximately **1.62 billion**
+- By **2026-05-24**, it had dropped to approximately **688 million**
+- On **2026-05-28**, it further stabilized around **642 million**
+
+This downward trend suggests:
+
+- Reduced Ethereum network congestion
+- Lower transaction costs
+- More cost-efficient periods for users to execute transactions
+
+---
+
+## Business Interpretation
+
+Lower moving average values indicate periods where users can perform blockchain transactions at reduced costs. Based on the analysis, the period between:
+
+### 2026-05-22 to 2026-05-28
+
+appears to be the most cost-efficient transaction window within the observed dataset.
+
+---
+
+## Analytical Importance
+
+The 7-day moving average helps to:
+
+- Smooth short-term fluctuations
+- Reduce the impact of daily volatility
+- Reveal long-term gas price trends
+- Support forecasting and transaction planning
+
+This technique is widely used in:
+
+- Cryptocurrency analytics
+- Financial time-series analysis
+- Forecasting systems
+- Market trend analysis
+
 
 
 
