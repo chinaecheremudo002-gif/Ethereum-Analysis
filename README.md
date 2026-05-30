@@ -346,5 +346,23 @@ This analysis identifies hospitals that charge significantly higher than the nat
 ## Insights  
 The results show that a small group of hospitals, including Stanford Hospital, UCSF Medical Center, and UCLA Medical Center, charge extremely high amounts compared to the national average. These values are far above the statistical threshold for normal variation, confirming them as true high-cost outliers. This suggests the presence of specialized or premium healthcare institutions that significantly distort the upper range of hospital pricing. Overall, the analysis highlights strong inequality in hospital charges, where a small number of providers operate at exceptionally high cost levels compared to the national healthcare baseline.
 
+## Cross-Domain Healthcare Cost Analysis (US States)
+
+## Summary  
+This analysis combines two major healthcare datasets: inpatient hospital charges and Part D prescription drug spending at the US state level. First, total hospital charges per state are calculated from inpatient data. Next, total prescription drug costs per state are calculated from the prescriber dataset. These two aggregated datasets are then joined using the state as the common key. Finally, total healthcare spending per state is computed by summing hospital charges and drug costs, allowing comparison of overall healthcare cost distribution across all US states.
+
+## Insights  
+The results show a clear imbalance in healthcare spending across US states, with large states like California, New York, Florida, and Texas dominating total healthcare expenditure due to both high hospital usage and high prescription drug costs. Interestingly, drug spending contributes a significantly larger share of total healthcare cost compared to hospital inpatient charges in almost all states, suggesting that pharmaceutical costs are a major driver of overall healthcare expenditure. Smaller states such as Alaska, Vermont, and Wyoming show much lower total spending, mainly due to smaller populations and lower healthcare utilization. Overall, the analysis highlights that healthcare cost variation across states is strongly driven by population size and prescription drug expenditure rather than hospital charges alone.
+
+## Recommendations  
+
+1. States should prioritize controlling prescription drug costs, as drug expenditure contributes a larger share of total healthcare spending than inpatient hospital charges in most cases. Policy interventions such as price regulation, bulk purchasing, or stronger negotiation with pharmaceutical companies could significantly reduce overall healthcare burden.
+
+2. Hospitals and healthcare systems should investigate the drivers of high inpatient costs in large states like California, New York, and Florida. Standardizing treatment pricing and improving operational efficiency could help reduce excessive cost variation across providers.
+
+3. Policymakers should consider implementing more transparent pricing systems across states to reduce the wide disparity in healthcare spending. This could help ensure that patients receive more consistent and predictable healthcare costs regardless of location.
+
+4. States with lower spending levels should be studied to identify cost-efficient healthcare practices that could be scaled or adapted to higher-cost regions without reducing quality of care.
+
 
 
