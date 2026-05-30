@@ -330,6 +330,21 @@ The analysis shows that procedure costs are not uniform across the country, with
 
 By comparing states using the same set of high-volume procedures, this analysis provides a standardized way to evaluate healthcare affordability and detect regional pricing disparities in the US healthcare system.
 
+## Geographic Price Variance Analysis (US Healthcare)
+
+## Summary  
+This analysis examines how hospital costs vary across US states for the top 5 most frequently occurring medical procedures (DRGs). First, the most common procedures are identified by counting occurrences across the national dataset. Then, for each of these procedures, the data is filtered to compute the number of cases and the average hospital payment per state. Finally, states are ranked for each procedure using DENSE_RANK based on average payment, where Rank 1 represents the most expensive state and higher ranks represent lower-cost states.
+
+## Insights  
+The results show strong geographic variation in healthcare pricing across the United States, even for the same medical procedures. States such as Alaska, Hawaii, and Washington DC consistently appear among the most expensive, while states like Tennessee, Alabama, and Arkansas tend to have significantly lower average costs. This pattern is consistent across all five procedures, indicating that healthcare pricing is driven more by geographic location and regional healthcare structure than by medical complexity. Overall, the findings highlight clear inefficiencies and lack of pricing standardization within the US healthcare system.
+
+## Statistical Outlier Detection (US Hospital Charges)
+
+## Summary  
+This analysis identifies hospitals that charge significantly higher than the national average by applying a statistical outlier detection method. First, the national average hospital payment is computed, along with the standard deviation to measure how much prices vary across providers. Using these values, a threshold is defined as the national average plus two times the standard deviation. Each hospital’s average total payment is then compared against this threshold, and only those exceeding it are flagged as outliers. A ranking (ROW_NUMBER) is also used to identify the most extreme cases among these high-cost providers.
+
+## Insights  
+The results show that a small group of hospitals, including Stanford Hospital, UCSF Medical Center, and UCLA Medical Center, charge extremely high amounts compared to the national average. These values are far above the statistical threshold for normal variation, confirming them as true high-cost outliers. This suggests the presence of specialized or premium healthcare institutions that significantly distort the upper range of hospital pricing. Overall, the analysis highlights strong inequality in hospital charges, where a small number of providers operate at exceptionally high cost levels compared to the national healthcare baseline.
 
 
 
