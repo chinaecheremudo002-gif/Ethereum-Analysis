@@ -67,6 +67,7 @@ In this project, the dataset is used to explore how transaction volume and high-
 ## Summary
 
 This analysis examines Ethereum network activity over the last 30 days by tracking daily transaction volume, the total amount of ETH transferred, and average gas prices. It highlights trends in network usage, value movement, and transaction costs. Overall, the study helps identify periods of high demand, congestion, and increased network activity.
+
 <img width="632" height="241" alt="image" src="https://github.com/user-attachments/assets/bf07488d-9fcf-49f7-b098-c652acd54e10" />
 
 ## Insight: Ethereum Network Activity
@@ -320,10 +321,13 @@ This analysis examines how hospital costs vary across US states for the top 5 mo
 
 ## Insights  
 The results show strong geographic variation in healthcare pricing across the United States, even for the same medical procedures. States such as Alaska, Hawaii, and Washington DC consistently appear among the most expensive, while states like Tennessee, Alabama, and Arkansas tend to have significantly lower average costs. This pattern is consistent across all five procedures, indicating that healthcare pricing is driven more by geographic location and regional healthcare structure than by medical complexity. Overall, the findings highlight clear inefficiencies and lack of pricing standardization within the US healthcare system.
+
 <img width="510" height="305" alt="image" src="https://github.com/user-attachments/assets/489ae942-d868-4342-a315-e990f012842a" />
 
 
 ## Statistical Outlier Detection (US Hospital Charges)
+
+<img width="489" height="438" alt="image" src="https://github.com/user-attachments/assets/dabb0ccf-8dc8-4e5b-b1ab-d055ec619d0a" />
 ## Insights  
 The results show that a small group of hospitals, including Stanford Hospital, UCSF Medical Center, and UCLA Medical Center, charge extremely high amounts compared to the national average. These values are far above the statistical threshold for normal variation, confirming them as true high-cost outliers. This suggests the presence of specialized or premium healthcare institutions that significantly distort the upper range of hospital pricing. Overall, the analysis highlights strong inequality in hospital charges, where a small number of providers operate at exceptionally high cost levels compared to the national healthcare baseline.
 
