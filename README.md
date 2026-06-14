@@ -69,7 +69,7 @@ In this project, the dataset is used to explore how transaction volume and high-
 This analysis examines Ethereum network activity over the last 30 days by tracking daily transaction volume, the total amount of ETH transferred, and average gas prices. It highlights trends in network usage, value movement, and transaction costs. Overall, the study helps identify periods of high demand, congestion, and increased network activity.
 <img width="632" height="241" alt="image" src="https://github.com/user-attachments/assets/bf07488d-9fcf-49f7-b098-c652acd54e10" />
 
-## Insight: Ethereum Network Activity (Last 9 Days)
+## Insight: Ethereum Network Activity
 
 ## Insight Summary
 
@@ -91,12 +91,10 @@ Overall, the Ethereum network demonstrates a pattern of **high but unstable acti
 # Whale Wallet Tier Segmentation (Ethereum Address Classification)
 
 ## Summary
+This analysis groups Ethereum wallets into whales, sharks, and fish based on their ETH holdings to study different user behaviors. It examines how each tier contributes to transaction volume and network activity. The goal is to identify patterns in large holders’ influence and overall market behavior.
 
-This analysis focuses on categorizing active Ethereum wallet addresses based on the total volume of ETH they control or transact. The goal is to understand how different levels of wallet size influence network activity and market behavior.
+<img width="489" height="216" alt="image" src="https://github.com/user-attachments/assets/307ca3b5-da9c-4726-b3a3-eaae108a9df9" />
 
-Wallets are grouped into three tiers: Whale wallets with very large holdings (1,000 ETH and above), Shark wallets with medium-level holdings (100–999 ETH), and Fish wallets with smaller holdings (below 100 ETH). This classification helps distinguish major market participants from regular users.
-
-By segmenting wallets into these tiers, the analysis aims to identify the role of high-value wallets in transaction volume, detect patterns of large-scale movements, and understand how different user groups contribute to overall network activity.
 
 ## Insight
 
