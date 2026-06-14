@@ -312,6 +312,7 @@ This analysis evaluates hospital markup ratios by comparing billed charges with 
 ## Hospital Cost Markup Insight
 
 The analysis reveals that hospital markup ratios vary considerably, ranging from approximately 8.85 to 16.58. CarePoint Health–Bayonne Medical Center and CarePoint Health–Christ Hospital exhibit substantially higher markups than other hospitals, suggesting greater differences between billed charges and actual payments. While most hospitals cluster around markup ratios of 9–11, the presence of several high-markup institutions indicates potential pricing inefficiencies that warrant further investigation. However, markup ratio alone is insufficient to determine fraud or abuse, and additional analysis incorporating procedure types, patient volume, and geographic factors would provide deeper insights into healthcare pricing behavior.
+
 <img width="679" height="321" alt="image" src="https://github.com/user-attachments/assets/0b6d226d-132d-4dda-b147-8870f81eb66b" />
 
 ## Geographic Price Variance Analysis (US Healthcare)
@@ -328,19 +329,20 @@ The results show strong geographic variation in healthcare pricing across the Un
 ## Statistical Outlier Detection (US Hospital Charges)
 
 <img width="489" height="438" alt="image" src="https://github.com/user-attachments/assets/dabb0ccf-8dc8-4e5b-b1ab-d055ec619d0a" />
+
+
 ## Insights  
 The results show that a small group of hospitals, including Stanford Hospital, UCSF Medical Center, and UCLA Medical Center, charge extremely high amounts compared to the national average. These values are far above the statistical threshold for normal variation, confirming them as true high-cost outliers. This suggests the presence of specialized or premium healthcare institutions that significantly distort the upper range of hospital pricing. Overall, the analysis highlights strong inequality in hospital charges, where a small number of providers operate at exceptionally high cost levels compared to the national healthcare baseline.
-
-<img width="489" height="438" alt="image" src="https://github.com/user-attachments/assets/dabb0ccf-8dc8-4e5b-b1ab-d055ec619d0a" />
-
 
 ## Cross-Domain Healthcare Cost Analysis (US States)
 
 <img width="514" height="360" alt="image" src="https://github.com/user-attachments/assets/dd037192-9e34-470a-a2f7-4304456f9763" />
 
+
 ## Insights  
 The results show a clear imbalance in healthcare spending across US states, with large states like California, New York, Florida, and Texas dominating total healthcare expenditure due to both high hospital usage and high prescription drug costs. Interestingly, drug spending contributes a significantly larger share of total healthcare cost compared to hospital inpatient charges in almost all states, suggesting that pharmaceutical costs are a major driver of overall healthcare expenditure. Smaller states such as Alaska, Vermont, and Wyoming show much lower total spending, mainly due to smaller populations and lower healthcare utilization. Overall, the analysis highlights that healthcare cost variation across states is strongly driven by population size and prescription drug expenditure rather
 than hospital charges alone.
+
 
 <img width="1089" height="800" alt="image" src="https://github.com/user-attachments/assets/464c7c11-e0fc-4df3-b92f-6df2a1b7191b" />
 
