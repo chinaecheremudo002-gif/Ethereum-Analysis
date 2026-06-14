@@ -302,23 +302,16 @@ The objective is to improve transparency, reduce waste, and support better healt
 
 ## Hospital Cost Markup Analysis
 
-The objective of this analysis is to calculate the markup ratio for hospitals and identify those with the highest difference between billed charges and actual payments. The markup ratio compares how much hospitals charge versus what is actually paid, helping to reveal pricing inefficiencies and unusual billing patterns. This analysis is useful for identifying overpriced hospitals, detecting potential fraud, waste, and abuse, and ranking hospitals based on the severity of their pricing gaps.
+This analysis evaluates hospital markup ratios by comparing billed charges with actual payments. It helps identify hospitals with unusually high pricing gaps and potential inefficiencies. The results can be used to detect possible fraud, waste, and abuse and rank hospitals by markup severity.
+
+<img width="682" height="322" alt="image" src="https://github.com/user-attachments/assets/2d3ad394-7482-4841-a236-eedc1507438e" />
+
+
 
 ## Hospital Cost Markup Insight
 
-The dataset shows a ranked list of hospitals based on markup ratios, and the values are tightly clustered within a narrow range of about 7.9% to 10%. This suggests that hospital pricing behavior is relatively consistent across institutions rather than highly scattered or extreme. A small group of hospitals at the top, such as Oak Hill Hospital and Doctors Medical Center, show slightly higher markup ratios, but the difference between the highest and lowest values is not large enough to indicate severe pricing anomalies.
-
-Overall, the pattern suggests a systemic pricing structure rather than isolated outliers. This means hospitals may be operating under similar insurance reimbursement frameworks or negotiated payment standards, which keeps markup differences relatively stable. However, even small variations are still important in large-scale healthcare spending because minor percentage differences can translate into millions of dollars in total cost impact.
-
-From a data perspective, the absence of extreme outliers implies lower immediate fraud risk based purely on markup ratio alone. However, deeper analysis combining procedure types, patient volume, and state-level differences would be needed to detect hidden inefficiencies or strategic overbilling patterns.
-
-## Geographic Price Variance Analysis
-
-The objective of this analysis is to compute the **average payment for the top 5 procedures across different US states** and use this to rank states based on overall healthcare cost levels. This helps identify how medical pricing varies geographically and highlights which states are the most expensive for healthcare services.
-
-The analysis shows that procedure costs are not uniform across the country, with significant variation driven by factors such as regional healthcare demand, hospital pricing strategies, insurance negotiation strength, and cost of living differences. States with higher rankings typically reflect higher average payments across multiple procedures, indicating more expensive healthcare systems overall, while lower-ranked states tend to have more cost-efficient pricing structures.
-
-By comparing states using the same set of high-volume procedures, this analysis provides a standardized way to evaluate healthcare affordability and detect regional pricing disparities in the US healthcare system.
+The analysis reveals that hospital markup ratios vary considerably, ranging from approximately 8.85 to 16.58. CarePoint Health–Bayonne Medical Center and CarePoint Health–Christ Hospital exhibit substantially higher markups than other hospitals, suggesting greater differences between billed charges and actual payments. While most hospitals cluster around markup ratios of 9–11, the presence of several high-markup institutions indicates potential pricing inefficiencies that warrant further investigation. However, markup ratio alone is insufficient to determine fraud or abuse, and additional analysis incorporating procedure types, patient volume, and geographic factors would provide deeper insights into healthcare pricing behavior.
+<img width="679" height="321" alt="image" src="https://github.com/user-attachments/assets/0b6d226d-132d-4dda-b147-8870f81eb66b" />
 
 ## Geographic Price Variance Analysis (US Healthcare)
 
@@ -327,22 +320,26 @@ This analysis examines how hospital costs vary across US states for the top 5 mo
 
 ## Insights  
 The results show strong geographic variation in healthcare pricing across the United States, even for the same medical procedures. States such as Alaska, Hawaii, and Washington DC consistently appear among the most expensive, while states like Tennessee, Alabama, and Arkansas tend to have significantly lower average costs. This pattern is consistent across all five procedures, indicating that healthcare pricing is driven more by geographic location and regional healthcare structure than by medical complexity. Overall, the findings highlight clear inefficiencies and lack of pricing standardization within the US healthcare system.
+<img width="510" height="305" alt="image" src="https://github.com/user-attachments/assets/489ae942-d868-4342-a315-e990f012842a" />
+
 
 ## Statistical Outlier Detection (US Hospital Charges)
-
-## Summary  
-This analysis identifies hospitals that charge significantly higher than the national average by applying a statistical outlier detection method. First, the national average hospital payment is computed, along with the standard deviation to measure how much prices vary across providers. Using these values, a threshold is defined as the national average plus two times the standard deviation. Each hospital’s average total payment is then compared against this threshold, and only those exceeding it are flagged as outliers. A ranking (ROW_NUMBER) is also used to identify the most extreme cases among these high-cost providers.
-
 ## Insights  
 The results show that a small group of hospitals, including Stanford Hospital, UCSF Medical Center, and UCLA Medical Center, charge extremely high amounts compared to the national average. These values are far above the statistical threshold for normal variation, confirming them as true high-cost outliers. This suggests the presence of specialized or premium healthcare institutions that significantly distort the upper range of hospital pricing. Overall, the analysis highlights strong inequality in hospital charges, where a small number of providers operate at exceptionally high cost levels compared to the national healthcare baseline.
 
+<img width="489" height="438" alt="image" src="https://github.com/user-attachments/assets/dabb0ccf-8dc8-4e5b-b1ab-d055ec619d0a" />
+
+
 ## Cross-Domain Healthcare Cost Analysis (US States)
 
-## Summary  
-This analysis combines two major healthcare datasets: inpatient hospital charges and Part D prescription drug spending at the US state level. First, total hospital charges per state are calculated from inpatient data. Next, total prescription drug costs per state are calculated from the prescriber dataset. These two aggregated datasets are then joined using the state as the common key. Finally, total healthcare spending per state is computed by summing hospital charges and drug costs, allowing comparison of overall healthcare cost distribution across all US states.
+<img width="514" height="360" alt="image" src="https://github.com/user-attachments/assets/dd037192-9e34-470a-a2f7-4304456f9763" />
 
 ## Insights  
-The results show a clear imbalance in healthcare spending across US states, with large states like California, New York, Florida, and Texas dominating total healthcare expenditure due to both high hospital usage and high prescription drug costs. Interestingly, drug spending contributes a significantly larger share of total healthcare cost compared to hospital inpatient charges in almost all states, suggesting that pharmaceutical costs are a major driver of overall healthcare expenditure. Smaller states such as Alaska, Vermont, and Wyoming show much lower total spending, mainly due to smaller populations and lower healthcare utilization. Overall, the analysis highlights that healthcare cost variation across states is strongly driven by population size and prescription drug expenditure rather than hospital charges alone.
+The results show a clear imbalance in healthcare spending across US states, with large states like California, New York, Florida, and Texas dominating total healthcare expenditure due to both high hospital usage and high prescription drug costs. Interestingly, drug spending contributes a significantly larger share of total healthcare cost compared to hospital inpatient charges in almost all states, suggesting that pharmaceutical costs are a major driver of overall healthcare expenditure. Smaller states such as Alaska, Vermont, and Wyoming show much lower total spending, mainly due to smaller populations and lower healthcare utilization. Overall, the analysis highlights that healthcare cost variation across states is strongly driven by population size and prescription drug expenditure rather
+than hospital charges alone.
+
+<img width="1089" height="800" alt="image" src="https://github.com/user-attachments/assets/464c7c11-e0fc-4df3-b92f-6df2a1b7191b" />
+
 
 ## Recommendations  
 
