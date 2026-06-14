@@ -93,7 +93,7 @@ Overall, the Ethereum network demonstrates a pattern of **high but unstable acti
 ## Summary
 This analysis groups Ethereum wallets into whales, sharks, and fish based on their ETH holdings to study different user behaviors. It examines how each tier contributes to transaction volume and network activity. The goal is to identify patterns in large holders’ influence and overall market behavior.
 
-<img width="489" height="216" alt="image" src="https://github.com/user-attachments/assets/307ca3b5-da9c-4726-b3a3-eaae108a9df9" />
+<img width="558" height="372" alt="image" src="https://github.com/user-attachments/assets/9e3802d3-7f37-4a6e-b326-6152bb87c530" />
 
 
 ## Insight
