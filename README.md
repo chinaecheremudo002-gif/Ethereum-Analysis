@@ -143,9 +143,9 @@ Daily Ethereum gas prices showed significant volatility, with sharp increases an
 
 The moving average indicates that gas prices generally declined from mid-May onward.
 
-- On **2026-05-12**, the 7-day moving average was approximately **1.62 billion**
-- By **2026-05-24**, it had dropped to approximately **688 million**
-- On **2026-05-28**, it further stabilized around **642 million**
+- On **2026-06-15**, the 7-day moving average was approximately **1.32 billion**
+- By **2026-06-22**, it had dropped to approximately **812 million**
+- On **2026-06-27**, it further stabilized around **588 million**
 
 This downward trend suggests:
 
@@ -158,9 +158,6 @@ This downward trend suggests:
 ## Business Interpretation
 
 Lower moving average values indicate periods where users can perform blockchain transactions at reduced costs. Based on the analysis, the period between:
-
-### 2026-05-22 to 2026-05-28
-
 appears to be the most cost-efficient transaction window within the observed dataset.
 
 ---
