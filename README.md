@@ -305,7 +305,8 @@ The objective is to improve transparency, reduce waste, and support better healt
 
 This analysis evaluates hospital markup ratios by comparing billed charges with actual payments. It helps identify hospitals with unusually high pricing gaps and potential inefficiencies. The results can be used to detect possible fraud, waste, and abuse and rank hospitals by markup severity.
 
-<img width="682" height="322" alt="image" src="https://github.com/user-attachments/assets/2d3ad394-7482-4841-a236-eedc1507438e" />
+<img width="685" height="320" alt="image" src="https://github.com/user-attachments/assets/6823c78f-c3d2-4b20-be68-472221235c74" />
+
 
 
 
@@ -328,7 +329,8 @@ The results show strong geographic variation in healthcare pricing across the Un
 
 ## Statistical Outlier Detection (US Hospital Charges)
 
-<img width="489" height="438" alt="image" src="https://github.com/user-attachments/assets/dabb0ccf-8dc8-4e5b-b1ab-d055ec619d0a" />
+
+<img width="509" height="408" alt="image" src="https://github.com/user-attachments/assets/956fa15e-8158-47ae-9614-b42af51450d5" />
 
 
 ## Insights  
@@ -336,7 +338,7 @@ The results show that a small group of hospitals, including Stanford Hospital, U
 
 ## Cross-Domain Healthcare Cost Analysis (US States)
 
-<img width="514" height="360" alt="image" src="https://github.com/user-attachments/assets/dd037192-9e34-470a-a2f7-4304456f9763" />
+<img width="1087" height="800" alt="image" src="https://github.com/user-attachments/assets/293c825d-80ec-4a54-9d04-a4df48336303" />
 
 
 ## Insights  
