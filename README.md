@@ -67,6 +67,8 @@ In this project, the dataset is used to explore how transaction volume and high-
 ## Summary
 
 This analysis examines Ethereum network activity over the last 30 days by tracking daily transaction volume, the total amount of ETH transferred, and average gas prices. It highlights trends in network usage, value movement, and transaction costs. Overall, the study helps identify periods of high demand, congestion, and increased network activity.
+<img width="632" height="241" alt="image" src="https://github.com/user-attachments/assets/bf07488d-9fcf-49f7-b098-c652acd54e10" />
+
 ## Insight: Ethereum Network Activity (Last 9 Days)
 
 ## Insight Summary
